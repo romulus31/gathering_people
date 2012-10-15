@@ -1,12 +1,12 @@
 h1{
 	text-align:center;
-	color:red;
+	color:rgb(58,193,13);
 }
 
 #first{
-	
+	font-style: italic;
 }
 
 body{
-	background: url('pictures/people.jpg')
+	background: url('pictures/people.jpg') no-repeat fixed center;
 }
