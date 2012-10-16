@@ -10,3 +10,12 @@ h1{
 body{
 	background: url('pictures/people.jpg') no-repeat fixed center;
 }
+
+footer{
+	position:relative;
+	bottom:0;
+	left:0;
+	right: 0;
+	
+}
+
