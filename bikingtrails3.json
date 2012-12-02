@@ -1,0 +1,29 @@
+{
+  "bikingtrails3": {
+    "title": " Baltimore and Annapolis Trail Park ",
+	"title_description": " Description ",
+    "Description": [ 
+"If you are looking to augment your physical workout with some intellectual exercise, look no further than the ",
+"Baltimore & Annapolis Trail. The scenic, paved, 13-mile community trail is brimming with history lessons and ",
+"boasts a solar system of information. The trail follows the route of the Annapolis and Baltimore Short Line, which ",
+"started running freight and passenger service in 1880 and helped shape this suburban region near the nation's capital. ",
+"Today, the 112-acre linear park winds through parks, neighborhoods and natural wooded areas.",
+"",
+"The trail also passes the Marley Station shopping mall, and the Ranger Station at mile marker 6.3, where public ",
+"grills and a large field-perfect for disk throwing-make an ideal picnic stop. Portions of the route are sponsored ",
+"by volunteers who fill the flowerbeds and kiosks along the trail, lending it a colorful, seasonal flair. Along the",
+ "trail you will find a literal alphabet of historical markers, from A to Z. The A marker, at mile 0.1, is the Winchester",
+ "Station House at Manresa near the Annapolis start of the trail. At mile 13.3 you will find the Z marker identifying ",
+ "the Sawmill Branch, the area's source of water and power in the early 18th century. To follow along with each marker",
+ "you will want to pick up a flyer at the Ranger Station.",
+"",
+"Near Harundale Mall you will come upon the Planet Walk, a linear museum with educational displays for the sun ",
+"and each planet. Sponsored by NASA, the planets are true to scale and have educational storyboards that teach ",
+"about our solar system. The trail, and its educational opportunities, end in the small town of Glen Burnie. But ",
+"you may continue on the BWI Trail loop for an additional 12.5 miles around the Baltimore Washington International ",
+"Airport."
+],
+"title_distance" : " Lenght ",
+  "Distance": " 14 miles   "
+  }
+}

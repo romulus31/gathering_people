@@ -1,0 +1,277 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background:url(images/img01.jpg) fixed no-repeat right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	font-family:rockwell;
+	
+}
+a{
+	text-decoration: none;
+	color:black;
+	}
+#bike_div_php{
+display:block;
+margin-left: 17%; /* marge à gauche */
+padding: 10px;
+border: 2px;
+text-align:justify;
+}
+#table_biking
+{
+float:left;
+margin-left: 20px;
+}
+
+table 
+{
+border: 1px solid black; 
+padding: none;
+}
+
+tr
+{
+background-color: #969696; 
+color: white; 
+border: 1px solid black; 
+padding: 2px;
+
+}
+
+tr.one {background-color: #dcdcdc;}
+tr.two {background-color: #fcfcfc;}
+
+tr.one:hover 
+{
+background-color: #39659a; 
+color: white;
+}
+		
+tr.two:hover 
+{
+background-color: #39659a; 
+color: white;
+}
+
+		
+td 
+{
+padding: 4px;
+margin: 0;
+}
+
+
+/* css des différents trails */
+
+#bikingtrails{
+	float: left;
+	display:block;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+	color:white;
+	
+	}
+#bikingtrails ul{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+	}
+#bikingtrails li{
+	color: white;
+}
+
+#bikingtrails a{
+	display: block;
+	padding: 5px 0px 5px 0px;
+	border-radius: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	border: none;
+	background:black;
+	color: white;
+	display: inline-block;
+	margin: 0px auto 30px 5px;
+
+}
+#on{
+float:right;
+display: block;
+border-radius:5px;
+background:black;
+color: white;
+display: inline-block;
+padding: 1px 3px 1px 3px;
+text-decoration:blink;
+}
+#off{
+float:right;
+display: block;
+border-radius:5px;
+background:black;
+color: white;
+display: inline-block;
+text-decoration:blink;
+padding: 1px 3px 1px 3px;
+}
+
+#BikingTrails1:hover{
+color:red;
+}
+#BikingTrails2:hover{
+color:blue;
+}
+#BikingTrails3:hover{
+color:yellow;
+}
+#BikingTrails4:hover{
+color:green;
+}
+#BikingTrails5:hover{
+color:orange;
+}
+
+/* fin des css des différents trails */
+
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	font-family: rockwell extra bold;
+	
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 2.4em;
+}
+
+h3 {
+	font-size: 1.6em;
+}
+
+
+
+/* Header */
+
+#header {
+	height:109px;
+}
+
+/* Logo */
+
+#logo {
+	width: 960px;
+	height: 150px;
+	margin: 0px auto 30px auto;
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	line-height: 100px;
+	letter-spacing: -1px;
+	text-align: center;
+	font-size: 3.8em;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+}
+
+
+
+/* Menu */
+
+#menu_div_bis{
+	overflow: hidden;
+	width: 1000px;
+	padding: 0px 0px;
+	margin: 0px auto 30px auto;
+	font-size: 20px;
+}
+
+#menu_div_bis ul {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu_div_bis li {
+	display: inline-block;
+}
+
+#menu_div_bis a {
+	display: block;
+	padding: 1px 0px 5px 0px;
+	border-radius: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 200;
+	border: none;
+	background:black;
+	color: white;
+	box-shadow:3px 3px 10px black;
+}
+
+/*google map api */
+#google_map{
+float : left ;
+margin-top:10px;
+width : 400px ;
+margin-left : 200px ;
+}
+#map_div{ 
+	width : 700px;
+	height : 550px;
+	position : relative;	
+}
+#side_bar{
+	width : 170px;
+	font-family: sans-serif;
+	font-style: italic;
+	text-decoration: orange;
+	text-transform: capitalize;
+	text-align : center;
+	
+}
+
+form#direction{
+width:800px;
+padding: none;
+font-weight:bold;
+}
+/* Footer */
+
+#footer {
+	clear: left;
+	margin-top: 30px;
+	padding: 15px;
+	background: url("images/ptitvelo.png") no-repeat bottom right black;
+	text-align: center;
+	border: 3px;
+	color:white;
+}
+body { height: 100%; margin: 0px; padding: 0px; }
