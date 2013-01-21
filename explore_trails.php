@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Biking</title>
+		<title>Step</title>
 		<meta name="author" content="Romulus" />
 		<!-- Date: 2012-10-24 -->
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
@@ -24,17 +24,15 @@
 		<!-- LIENS RENVOYANT LES FICHIERS JSON -->
 		<div id="bikingtrails">
 		<ul>
-			<li><a href="#" id="BikingTrails1"> Biking Trail 1 </a></li>
-			<li><a href="#" id="BikingTrails2"> Biking Trail 2 </a></li>
-			<li><a href="#" id="BikingTrails3"> Biking Trail 3 </a></li>
-			<li><a href="#" id="BikingTrails4"> Biking Trail 4 </a></li>
-			<li><a href="#" id="BikingTrails5"> Biking Trail 5 </a></li>
-			<li><a href="#" id="other_trail_link"> Other Trails </a></li>
+			<li><a href="#" id="BikingTrails1"> First Step </a></li>
+			<li><a href="#" id="BikingTrails2"> Second Step </a></li>
+			<li><a href="#" id="BikingTrails3"> Third Step </a></li>
+			<li><a href="#" id="other_trail_link"> Your Favorite List </a></li>
 		</ul>
 		
 		</div>
-		<a class="off" href="#" id="off"><em>other trail before</em></a></h3>
-		<a class="on" href="#" id="on"><em>other trails lighting </em></a></h3>
+		<a class="off" href="#" id="off"><em>Normal LIST</em></a></h3>
+		<a class="on" href="#" id="on"><em>Lighting LIST</em></a></h3>
 		
 		
 		

@@ -12,7 +12,7 @@
 </script>
 <script type="text/javascript" src="google_map_api.js"></script>
 <title> 
-	Localisation
+	Find your friends
 </title>
 </head>
 
@@ -36,7 +36,7 @@
 				<label>Departure  </label></br>
 				<input type="text" name="origin" id="origin" />
 				<p><label>Destination :</label>
-					"CALIFORNIA'S TRAILS"  
+					"gathering-people company"  
 					<input type="button" value="Get Direction" onclick="javascript:calculate()"/>
 				</p>
 			</form>

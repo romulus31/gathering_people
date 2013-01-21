@@ -96,68 +96,6 @@ $(document).ready(function() {
   });
 });
 
-//bikingtrails4
-$(document).ready(function() {
-  $('#BikingTrails4').click(function() {
-    $.getJSON('bikingtrails4.json', function(data) {
-      $('#bike_div_php').empty();
-      $.each(data, function(entryIndex, entry) {
-        var html = '<div class="entry">';
-        html += '<h3 class="title">' + entry['title'] + '</h3>';
-        
-        html += '<div class="Description">';
-        html += '<h4>' + entry['title_description'] + '</h4>';
-        if (entry['Description']) {
-          html += '<div class="description">';
-          $.each(entry['Description'], function(lineIndex, line) {
-            html += '<div class="description-line">' + line + '</div>';
-          });
-          
-          html += '</div>';
-        }
-		html += '</br>';
-		html += '<strong>' + entry['title_distance'] + '</strong>' + ':' + entry['Distance'];
-        
-        html += '</div>';
-        html += '</div>';
-        $('#bike_div_php').append(html);
-      });
-    });
-    return false;
-  });
-});
-
-//bikingtrails5
-$(document).ready(function() {
-  $('#BikingTrails5').click(function() {
-    $.getJSON('bikingtrails5.json', function(data) {
-      $('#bike_div_php').empty();
-      $.each(data, function(entryIndex, entry) {
-        var html = '<div class="entry">';
-        html += '<h3 class="title">' + entry['title'] + '</h3>';
-        
-        html += '<div class="Description">';
-        html += '<h4>' + entry['title_description'] + '</h4>';
-        if (entry['Description']) {
-          html += '<div class="description">';
-          $.each(entry['Description'], function(lineIndex, line) {
-            html += '<div class="description-line">' + line + '</div>';
-          });
-          
-          html += '</div>';
-        }
-		html += '</br>';
-		html += '<strong>' + entry['title_distance'] + '</strong>' + ':' + entry['Distance'];
-        
-        html += '</div>';
-        html += '</div>';
-        $('#bike_div_php').append(html);
-      });
-    });
-    return false;
-  });
-});
-
 // other trails
 
 $(document).ready(function(){

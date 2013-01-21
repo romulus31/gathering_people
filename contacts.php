@@ -31,7 +31,7 @@
  <h3>Address</h3>  
  <div>       
  <p>    
-	CALIFORNIA'S TRAILS</br> Franklin Street </br> SAN FRANCISCO </br> CALIFORNIA </br> UNITED STATES OF AMERICA </br> AMERICA.
+	gathering people </br> ITB, college of blanchardstown </br> DUBLIN </br> IRLAND </br> EUROPE
  </p>    
  </div>   
  <h3>E-Mail</h3>  

@@ -59,17 +59,17 @@
 
 	
     <div id="resizable" class="ui-state-content">
-		<h3 class="ui-widget-header">Sort your Trails</h3>
+		<h3 class="ui-widget-header">Sort your Favorite interest</h3>
 		<ul id="sortable">
-			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>American River Bike Trail (Jedediah Smith Memorial Trail)</li>
-			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Ashuelot Rail-Trail</li>
-			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Baltimore and Annapolis Trail Park</li>
-			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Banks-Vernonia State Trail</li>
-			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Bike and Hike Trail</li>
-			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Bizz Johnson National Recreation Trail</li>
-			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Blackwater Canyon Trail </li>
-			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Boreas Pass </li>
-			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Burke-Gilman Trail </li>
+			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>SPORT</li>
+			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>CINEMA</li>
+			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>GOOD FOOD</li>
+			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>TRAVELS</li>
+			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>RELAXATION</li>
+			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>MUSICS</li>
+			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>TECHNOLOGIES </li>
+			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>ASTRONOMY</li>
+			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>CARS / MOTOBIKE</li>
 		</ul>
 
     </div>

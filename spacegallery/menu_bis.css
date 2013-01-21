@@ -12,7 +12,7 @@ body {
 }
 a{
 	text-decoration: none;
-	color:black;
+	color:rgb(170,0,0);
 	}
 #bike_div_php{
 display:block;
@@ -233,7 +233,7 @@ h3 {
 	border: none;
 	background:black;
 	color: white;
-	box-shadow:3px 3px 10px black;
+	box-shadow:3px 3px 10px rgb(170,0,0);
 }
 
 /*google map api */
@@ -269,7 +269,7 @@ font-weight:bold;
 	clear: left;
 	margin-top: 30px;
 	padding: 15px;
-	background: url("images/ptitvelo.png") no-repeat bottom right black;
+	background: url("images/gathering-people-logo-lil.png") no-repeat bottom right rgb(170,0,0);
 	text-align: center;
 	border: 3px;
 	color:white;

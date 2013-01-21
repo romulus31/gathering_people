@@ -51,35 +51,22 @@
 	<?php include("includes/menu.php"); ?>
 	<!--endmenu-->
 <!--Corps-->
- <a href="#" id="button" class="ui-state-default ui-corner-all">Toggle Effect</a></br>
+ <a href="#" id="button" class="ui-state-default ui-corner-all">Extend Effect</a></br>
 <div class="toggler">
     <div id="effect" class="ui-widget-content ui-corner-all">
 	
-Califonia's Trails is a compilation of bicycle trails throughout California helping 
-cyclists and especially tourists to plan their tour across the "Sunshine State".
-With the help of Rails-to-Trails most of the suggested trails were built and launched.
+Our first objective is to gather people with the same interest. 
+We want to develop a website with a login, where people are gathered 
+according to their centre of interest, age or other, on a forum, where
+ they can organise meeting or other. We know this already exists: Facebook,
+ twitter, and other social network. 
 
+<h3>How to gather people? </h3>
 
-Rails-to-Trails Conservancy is a nonprofit organization based in Washington, D.C.linked with California's Trails, 
-whose mission it is to create a nationwide network of bicycle trails from former rail 
-lines and connecting corridors to create space for passionate cyclists 
-and to offer a different type of experience for tourists visiting the country.
-
-<h3>Who We Are</h3>
-Rails-to-Trails Conservancy serves as the national voice for more than 
-150,000 members and supporters, 20,000-plus miles of rail-trail throughout 
-the country, and more than 9,000 miles of potential rail-trails waiting to be built. 
-
-We have supported the tremendous growth and development of rail-trails since
- opening our doors February 1, 1986. Then, there were fewer than 200 known
- rail-trails. Today, there are more than 1,600 preserved bicycle trails that form
- the backbone of a growing trail system that spans communities and regions all across the country.
-
-Rails-to-Trails Conservancy remains dedicated to the creation of a nationwide 
-network of bicycle trails. Further, Rails-to-Trails Conservancy is committed to enhancing 
-the health of America's environment, transportation, economy, neighborhoods and
- people-ensuring a better future made possible by trails and the connections they
- inspire.</br>
+The first thing to do is to know the center of interest of each people. 
+But also, we want to recover the personality of the people and what they expect in this activity,
+ center of interest, and where they live.
+</br>
 
     </div>
 </div>

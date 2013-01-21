@@ -1,6 +1,6 @@
 window.onload=initialize;
 
-var longitudeCalifornia=37.77785;
+var longitudeCalifornia=53.405029;
 var markerTrails;
 /* itinirary */
 
@@ -12,12 +12,12 @@ var direction;
 
 var mapPrinc;
 var gmarkers = [];
-var latitudeCalifornia=-122.421551;
+var latitudeCalifornia=-6.378061;
 var locationBikeCalifornia = new google.maps.LatLng(longitudeCalifornia,latitudeCalifornia);
 
-var contentTrails = '<h2>California Biking</h2>'+
-					'<TEXTAREA name="description" rows=4 cols=40 readonly>Welcome to the california trails ! This association helps you to discover whole california by bike </TEXTAREA>'+
-					'<img src="images/img02.jpg" width="160" height="120" hspace="10" border="1" alt="Thumbnail 0" id="Img02" />;';
+var contentTrails = '<h2>gathering people</h2>'+
+					'<TEXTAREA name="description" rows=4 cols=40 readonly>Welcome to the gathering people company ! This association helps you to discover new friends and new interests in your life </TEXTAREA>'+
+					'<img src="images/logo-gp05.png" width="160" height="200" hspace="10" border="1" alt="Thumbnail 0" id="Img02" />;';
 
 
 var infowindowTrails = new google.maps.InfoWindow({
@@ -49,7 +49,7 @@ function initialize() {
   {
   
  
-  var iconTrails = new google.maps.MarkerImage('images/markerSc.png', new google.maps.Size(35,39), new google.maps.Point(0,0), new google.maps.Point(10,35));
+  var iconTrails = new google.maps.MarkerImage('images/marker-hotel.png', new google.maps.Size(35,39), new google.maps.Point(0,0), new google.maps.Point(10,35));
   
 		var side_bar_html = "";
 
@@ -57,7 +57,7 @@ function initialize() {
 			icon: iconTrails,
 			position: locationBikeCalifornia,
 			map: mapPrinc,
-			title: "California Trails"
+			title: "GATHERING PEOPLE"
 		});
 
 	google.maps.event.addListener(markerTrails, 'click', function() {
@@ -66,7 +66,7 @@ function initialize() {
 	gmarkers.push(markerTrails);
 	
 	side_bar_html += '<a href="javascript:myclick(' + (gmarkers.length-1) + ')">' 
-	+ "California Trails" + '</a><br>';
+	+ "GATHERING PEOPLE" + '</a><br>';
 
 	
 	document.getElementById("side_bar").innerHTML = side_bar_html;
