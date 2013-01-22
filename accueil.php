@@ -9,5 +9,5 @@ print $_SESSION['idUser'].'<br/>';
 				 print  $_SESSION['mail'].'<br/>';
 print"Bienvenu dans l'espace membre".'<br/>';
 
-print '<a href="deconnexion.php">Déconnexion</a>';
+print '<a href="includes/deconnexion.php">Déconnexion</a>';
 ?>

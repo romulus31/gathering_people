@@ -32,7 +32,7 @@ if (isset($_POST['identification']))
     // Si $identification et $mdp différents de null
     if(isset($identification,$mdp)) 
     {
-        require_once('connex.php');
+        require_once('includes/connex.php');
             
          // Indique à mySql de travailler en UTF-8 (par défaut mySql risque de travailler au standard ISO-8859-1)
          mysql_query("SET NAMES 'utf8'");
