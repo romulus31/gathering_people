@@ -69,7 +69,7 @@ if (isset($_POST['identification']))
 				   $_SESSION['mail'] = $resultat['mail'];
 						 
 				 mysql_close();  // on ferme la connexion
-				  header("Location: accueil.php");
+				  header("Location: index.php");
 				  
 				}			 
 				  

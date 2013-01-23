@@ -48,7 +48,7 @@
 
 <body>
 	<!--header-->
-	<?php include("includes/header.php");?>
+	<?php include("includes/header.php");if(!isset($_SESSION['firstN'])) {echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';die('Vous devez être enregistré pour accéder à cette partie du site');}?>
 	<!-- end #header -->
 	<!--menu-->
 	<?php include("includes/menu.php"); ?>

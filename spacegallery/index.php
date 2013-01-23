@@ -14,7 +14,7 @@
     <script type="text/javascript" src="js/layout.js"></script>
 </head>
 <body>
-<?php include("../includes/header.php");?>
+<?php include("../includes/header.php");if(!isset($_SESSION['firstN'])) {echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../identification.php">';die('Vous devez être enregistré pour accéder à cette partie du site');}?>
 	
 	
 	<?php include("../includes/menu_bis.php");?>

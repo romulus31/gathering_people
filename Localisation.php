@@ -1,10 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> <!-- L'utilisateur ne peut pas r�duire ou modifier la carte -->
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> <!-- L'utilisateur ne peut pas réduire ou modifier la carte -->
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 <!-- Insertion du script js de google map api -->
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true">
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	<?php include("includes/header.php");?>
+	<?php include("includes/header.php");if(!isset($_SESSION['firstN'])) {echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';die('Vous devez être enregistré pour accéder à cette partie du site');}?>
 	
 	
 	<?php include("includes/menu.php");?>

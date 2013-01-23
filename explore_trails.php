@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
 "http://www.w3.org/TR/html4/strict.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
@@ -16,7 +16,7 @@
 		
 	</head>
 	<body>
-	<?php include("includes/header.php");?>
+	<?php include("includes/header.php");if(!isset($_SESSION['firstN'])) {echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';die('Vous devez être enregistré pour accéder à cette partie du site');}?>
 	
 	
 	<?php include("includes/menu.php");?>
