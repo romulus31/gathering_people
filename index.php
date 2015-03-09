@@ -5,9 +5,12 @@
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-<title>HOME1</title>
+<title>Welcome</title>
 
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="dist/js/bootstrap.js"</script>
+
 <script type="text/javascript" src="biblio/jquery-1.8.2.js"></script>
 <script type="text/javascript" src="biblio/jquery-1.8.2.js"></script>
 <script type="text/javascript" src="biblio/jquery-ui.js"></script>
@@ -51,25 +54,40 @@
 	<?php include("includes/menu.php"); ?>
 	<!--endmenu-->
 <!--Corps-->
- <a href="#" id="button" class="ui-state-default ui-corner-all">Extend Effect</a></br>
-<div class="toggler">
-    <div id="effect" class="ui-widget-content ui-corner-all">
-	
-Our first objective is to gather people with the same interest. 
+<!-- <a href="#" id="button" class="ui-state-default ui-corner-all">Extend Effect</a></br>-->
+
+    <div class="container">
+            <div class="col-lg-3">
+                <div class="panel panel-default"> 
+                    	
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Objective</h3>
+                      </div>
+                     <div class="panel-body">
+Gather people with the same interest. 
 We want to develop a website with a login, where people are gathered 
 according to their centre of interest, age or other, on a forum, where
  they can organise meeting or other. We know this already exists: Facebook,
  twitter, and other social network. 
+                </div>
+                </div>
 
-<h3>How to gather people? </h3>
-
-The first thing to do is to know the center of interest of each people. 
+ <div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">How to gather people?</h3>
+  </div>
+  <div class="panel-body">
+   he first thing to do is to know the center of interest of each people. 
 But also, we want to recover the personality of the people and what they expect in this activity,
  center of interest, and where they live.
-</br>
-
-    </div>
+  </div>
 </div>
+ 
+            </div>
+    </div>
+
+
+
 
 <!--footer-->
 	<?php include("includes/footer.php"); ?>

@@ -1,6 +1,7 @@
 
 
-body {
+body 
+{
 	margin: 0;
 	padding: 0;
 	background:url(images/logo-gp05.png) fixed no-repeat right;
@@ -16,7 +17,7 @@ a{
 	}
 #bike_div_php{
 display:block;
-margin-left: 17%; /* marge à gauche */
+margin-left: 17%; /* marge ï¿½ gauche */
 padding: 10px;
 border: 2px;
 text-align:justify;
@@ -65,7 +66,7 @@ margin: 0;
 }
 
 
-/* css des différents trails */
+/* css des diffï¿½rents trails */
 
 #bikingtrails{
 	float: left;
@@ -140,7 +141,7 @@ color:green;
 color:orange;
 }
 
-/* fin des css des différents trails */
+/* fin des css des diffï¿½rents trails */
 
 
 h1, h2, h3 {
@@ -205,7 +206,7 @@ color:rgb(23,151,30);
 
 /* Menu */
 
-#menu{
+/*#menu{
 	overflow: hidden;
 	width: 1000px;
 	padding: 0px 0px;
@@ -238,7 +239,7 @@ color:rgb(23,151,30);
 	background:rgb(170,0,0);
 	color: white;
 	box-shadow:3px 3px 10px rgb(170,0,0);
-}
+}*/
 
 /*google map api */
 #google_map{

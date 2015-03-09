@@ -14,7 +14,13 @@
     <script type="text/javascript" src="js/layout.js"></script>
 </head>
 <body>
-<?php include("../includes/header.php");if(!isset($_SESSION['firstN'])) {echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../identification.php">';die('Vous devez être enregistré pour accéder à cette partie du site');}?>
+<?php include("../includes/header.php");
+//if(!isset($_SESSION['firstN'])) {
+//    echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../identification.php">';
+//    die('Vous devez ï¿½tre enregistrï¿½ pour accï¿½der ï¿½ cette partie du site');
+//    
+//}
+?>
 	
 	
 	<?php include("../includes/menu_bis.php");?>
@@ -25,8 +31,8 @@
         </ul>
         <div class="tabsContent">
             <div class="tab">
-                <h2>gathering</h2>
-				<p>Click :) </p>
+            
+			
 				<div id="myGallery" class="spacegallery">
 					<img src="images/gathering-people-logo.png" alt="" />
 					<img src="images/Gathering-of-Women-Art.jpg" alt="" />

@@ -8,6 +8,9 @@
 <script type="text/javascript" src="biblio/jquery-ui.js"></script>
 <link href="biblio/jquery-ui.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+
+<link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="dist/js/bootstrap.js"></script>
 <script type="text/javascript" src="style.css"></script>
 <style type="text/css"> </style>
  <script>    
@@ -20,7 +23,14 @@
 </head>
 <body>
 	<!--header-->
-	<?php include("includes/header.php");if(!isset($_SESSION['firstN'])) {echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';die('Vous devez être enregistré pour accéder à cette partie du site');}?>
+	<?php include("includes/header.php");
+//        if(!isset($_SESSION['firstN'])) {
+//            echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';
+//            die('Vous devez être enregistré pour accéder à cette partie du site');
+//            
+//        }
+            
+            ?>
 	<!-- end #header -->
 
 	<!--menu-->

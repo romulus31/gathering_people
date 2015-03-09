@@ -12,11 +12,18 @@
    		<!-- INCLUSION DES SCRIPTS JS -->
 		<script type="text/javascript" src="biblio/jquery-1.8.2.js"></script>
    		<script type="text/javascript" src="bikingtrails.js"></script>
+                <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="dist/js/bootstrap.js"></script>
 		 
 		
 	</head>
 	<body>
-	<?php include("includes/header.php");if(!isset($_SESSION['firstN'])) {echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';die('Vous devez être enregistré pour accéder à cette partie du site');}?>
+	<?php include("includes/header.php");
+//        if(!isset($_SESSION['firstN'])) {
+//            echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';
+//            die('Vous devez être enregistré pour accéder à cette partie du site');
+//            
+//        }?>
 	
 	
 	<?php include("includes/menu.php");?>

@@ -16,7 +16,7 @@
 	
 	<?php include("includes/menu.php");?>
 	
-	<form method="post" action="traitement.php">
+	    <form method="post" action="traitement.php">
 		<h1>Gathering people registration</h1>
 		<fieldset>
 		<legend>Your coordinates</legend>
