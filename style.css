@@ -271,11 +271,13 @@ font-weight:bold;
 /* Footer */
 
 #footer {
+    margin: 5px;
 	position:relative;
 	clear: left;
 	margin-top: 30px;
 	padding: 15px;
 	background: url("images/logo-gp05-lil.png") no-repeat bottom right rgb(170,0,0);
+        border-radius: 5px;
 	text-align: center;
 	border: 3px;
 	color:white;

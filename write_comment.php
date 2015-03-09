@@ -10,6 +10,9 @@
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 <script type="text/javascript" src="biblio/jquery-1.8.2.js"></script>
 
+<link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="dist/js/bootstrap.js"</script>
+
 
 <style type="text/css">
 
@@ -48,7 +51,13 @@
 
 <body>
 	<!--header-->
-	<?php include("includes/header.php");if(!isset($_SESSION['firstN'])) {echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';die('Vous devez être enregistré pour accéder à cette partie du site');}?>
+	<?php include("includes/header.php");
+//        if(!isset($_SESSION['firstN'])) {
+//            echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';
+//            die('Vous devez ï¿½tre enregistrï¿½ pour accï¿½der ï¿½ cette partie du site');
+//            
+//        }
+//        ?>
 	<!-- end #header -->
 	<!--menu-->
 	<?php include("includes/menu.php"); ?>
@@ -58,7 +67,7 @@
 
 
 	
-    <div id="resizable" class="ui-state-content">
+    <div id="resizable" class="container">
 		<h3 class="ui-widget-header">Sort your Favorite interest</h3>
 		<ul id="sortable">
 			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>SPORT</li>
@@ -68,7 +77,7 @@
 			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>RELAXATION</li>
 			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>MUSICS</li>
 			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>TECHNOLOGIES </li>
-			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>ASTRONOMY</li>
+			
 			<li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>CARS / MOTOBIKE</li>
 		</ul>
 

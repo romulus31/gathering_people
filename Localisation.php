@@ -6,6 +6,8 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" /> <!-- L'utilisateur ne peut pas réduire ou modifier la carte -->
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="dist/js/bootstrap.js"></script>
 <!-- Insertion du script js de google map api -->
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true">
 
@@ -17,7 +19,13 @@
 </head>
 
 <body>
-	<?php include("includes/header.php");if(!isset($_SESSION['firstN'])) {echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';die('Vous devez être enregistré pour accéder à cette partie du site');}?>
+	<?php include("includes/header.php");
+//        if(!isset($_SESSION['firstN'])) {
+//            echo '<META HTTP-EQUIV="Refresh" CONTENT="2; URL=../gathering_people/identification.php">';
+//            die('Vous devez être enregistré pour accéder à cette partie du site');
+//            
+//        }
+        ?>
 	
 	
 	<?php include("includes/menu.php");?>

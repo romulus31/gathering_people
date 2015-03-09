@@ -8,12 +8,13 @@
 		<meta name="author" content="Romulus" />
 		<!-- Date: 2012-10-24 -->
 		<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+                
 		
    		<!-- INCLUSION DES SCRIPTS JS -->
 		<script type="text/javascript" src="biblio/jquery-1.8.2.js"></script>
    		<script type="text/javascript" src="bikingtrails.js"></script>
                 <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
-<script type="text/javascript" src="dist/js/bootstrap.js"></script>
+                <script type="text/javascript" src="dist/js/bootstrap.js"></script>
 		 
 		
 	</head>
@@ -27,26 +28,23 @@
 	
 	
 	<?php include("includes/menu.php");?>
-	
+        <br><br><br>
 		<!-- LIENS RENVOYANT LES FICHIERS JSON -->
-		<div id="bikingtrails">
-		<ul>
-			<li><a href="#" id="BikingTrails1"> First Step </a></li>
-			<li><a href="#" id="BikingTrails2"> Second Step </a></li>
-			<li><a href="#" id="BikingTrails3"> Third Step </a></li>
-			<li><a href="#" id="other_trail_link"> Your Favorite List </a></li>
-		</ul>
+                <div class="container">
+                    <div class="btn-group-vertical" role="group"> 
+                        <button type="button" class="btn btn-default"> <a href="#" > First Step </a></button>
+                        <button type="button" class="btn btn-default">  <a href="#" > Second Step </a></button>
+                        <button type="button" class="btn btn-default"> <a href="#" > Third Step </a></button>
+                    </div>
+                </div>
+<!--		<a class="off" href="#" id="off"><em>Normal LIST</em></a></h3>
+		<a class="on" href="#" id="on"><em>Lighting LIST</em></a></h3>-->
 		
-		</div>
-		<a class="off" href="#" id="off"><em>Normal LIST</em></a></h3>
-		<a class="on" href="#" id="on"><em>Lighting LIST</em></a></h3>
-		
-		
+                    
 		
 		
 		<div id="bike_div_php">	
 		</div>
-		
 		<div id="table_biking">
 			
 		</div>

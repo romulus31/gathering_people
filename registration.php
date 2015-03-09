@@ -5,6 +5,8 @@
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="dist/js/bootstrap.js"></script>
 <title> 
 	Registration
 </title>
@@ -15,26 +17,26 @@
 	
 	
 	<?php include("includes/menu.php");?>
-	
+    <div class="container">
 	    <form method="post" action="traitement.php">
 		<h1>Gathering people registration</h1>
 		<fieldset>
 		<legend>Your coordinates</legend>
-			<label for="firstname">FirstName : </label>
+			<label for="firstname">FirstName  </label>
 			<input type="text" name="firstname" id="firstname" /><br />
 			
-			<label for="lastname">LastName : </label>
+			<label for="lastname">LastName  </label>
 			<input type="text" name="lastname" id="lastname" /><br />
 			
-			<label for="email">E-mail : </label>
+			<label for="email">E-mail  </label>
 			<input type="text" name="email" id="email" /><br />
 			
-			<label for="password">Password : </label>
+			<label for="password">Password  </label>
 			<input type="text" name="password" id="password" /></br></br>
 			
 			
 			</fieldset>
-			Choose 5 center of interest : </br>
+			Choose 5 center of interest  </br>
 			<select name="interet1" id="interet1">
 				<option value="cinema">Cinema</option>
 				<option value="goodfood">Good food</option>
@@ -94,7 +96,7 @@
 		<p><input type="submit" value="Envoyer" /></p>
 	</form>
 	
-	
+    </div>
 	<?php include("includes/footer.php");?>
 </body>
 

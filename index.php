@@ -12,7 +12,6 @@
 <script type="text/javascript" src="dist/js/bootstrap.js"</script>
 
 <script type="text/javascript" src="biblio/jquery-1.8.2.js"></script>
-<script type="text/javascript" src="biblio/jquery-1.8.2.js"></script>
 <script type="text/javascript" src="biblio/jquery-ui.js"></script>
 <link href="biblio/jquery-ui.css" rel="stylesheet" type="text/css" media="screen" />
 
