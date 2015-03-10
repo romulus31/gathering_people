@@ -11,18 +11,13 @@
 <script type="text/javascript" src="biblio/jquery-1.8.2.js"></script>
 
 <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
-<script type="text/javascript" src="dist/js/bootstrap.js"</script>
-
-
-<style type="text/css">
-
-</style>
+<script type="text/javascript" src="dist/js/bootstrap.js"></script>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <script type="text/javascript" src="biblio/jquery-1.8.2.js"></script>
 <script type="text/javascript" src="biblio/jquery-ui.js"></script>
 <link href="biblio/jquery-ui.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-<style type="text/css"> </style>
+
+
 
 <!-- Resizable -->
  <style>

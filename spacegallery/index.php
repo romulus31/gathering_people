@@ -6,6 +6,8 @@
     <link rel="stylesheet" media="screen" type="text/css" href="css/spacegallery.css" />
     <link rel="stylesheet" media="screen" type="text/css" href="css/custom.css" />
 	<link rel="stylesheet" media="screen" type="text/css" href="menu_bis.css" />
+        <link href="dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="dist/js/bootstrap.js"</script>
 	
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/eye.js"></script>

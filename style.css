@@ -1,14 +1,14 @@
 
 
-body 
+html,body 
 {
-	margin: 0;
-	padding: 0;
-	background:url(images/logo-gp05.png) fixed no-repeat right;
+	
+	//background:url(images/logo-gp05.png) fixed no-repeat right;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 200;
 	font-family:rockwell;
+        height: 100%
 	
 }
 a{
@@ -172,9 +172,9 @@ color:rgb(23,151,30);
 
 /* Header */
 
-#header {
+/*#header {
 	height:109px;
-}
+}*/
 
 /* Logo */
 
@@ -272,14 +272,13 @@ font-weight:bold;
 
 #footer {
     margin: 5px;
-	position:relative;
+    margin-top:330px;
+    
 	clear: left;
-	margin-top: 30px;
 	padding: 15px;
 	background: url("images/logo-gp05-lil.png") no-repeat bottom right rgb(170,0,0);
         border-radius: 5px;
 	text-align: center;
-	border: 3px;
 	color:white;
 }
 .toggler { width: 20%; height: 40%; margin-left:32%;}
