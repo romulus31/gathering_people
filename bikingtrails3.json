@@ -2,11 +2,8 @@
   "bikingtrails3": {
     "title": " Enjoy and meet people like you ! ",
 	"title_description": " how? ",
-    "Description": [ 
+    "Description": [
 " Just need to consult the list of your friends ",
-" with the same interest"
-],
-"title_distance" : " time ",
-  "Distance": " all your life   "
-  }
+" with the same interest"]
+}
 }
