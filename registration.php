@@ -23,12 +23,12 @@
                 <fieldset>
                     <legend>Your coordinates</legend>
                     <div class="input-group input-group-sm">
-                        <span class="input-group-addon" id="sizing-addon1">@</span>
+                        <span class="input-group-addon" id="sizing-addon1">U'</span>
                         <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
                     </div>
                     <br>
                     <div class="input-group input-group-sm">
-                        <span class="input-group-addon" id="sizing-addon1">@</span>
+                        <span class="input-group-addon" id="sizing-addon1">L'</span>
                         <input type="text" class="form-control" placeholder="Lastname" aria-describedby="sizing-addon1">
                     </div>
 <br>
@@ -38,7 +38,7 @@
                     </div>
 <br>
                     <div class="input-group input-group-sm">
-                        <span class="input-group-addon" id="sizing-addon1">@</span>
+                        <span class="input-group-addon" id="sizing-addon1">***</span>
                         <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon1">
                     </div>
 <br><br>

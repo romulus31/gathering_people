@@ -21,7 +21,7 @@
 
 <!-- Resizable -->
  <style>
-    #resizable { width: 880px; height: 386px; margin-left:18%; border: 5px solid black;  }
+    #resizable { width: 880px; height: 386px; margin-left:18%; }
     #resizable h3 { text-align: center; color:rgb(27,70,105); background: white; margin: 0; }
     </style>
     <script>
@@ -60,7 +60,7 @@
 <!--Corps-->
    
 
-
+<br><br><br>
 	
     <div id="resizable" class="container">
 		<h3 class="ui-widget-header">Sort your Favorite interest</h3>
