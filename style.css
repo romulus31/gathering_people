@@ -2,40 +2,40 @@
 
 html,body 
 {
-	//background:url(images/logo-gp05.png) fixed no-repeat right;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px;
-	font-weight: 200;
-	font-family:rockwell;
-        height: 100%
-	
+    //background:url(images/logo-gp05.png) fixed no-repeat right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    font-family:rockwell;
+    height: 100%
+
 }
 a{
-	text-decoration: none;
-	color:rgb(170,0,0);
-	}
+    text-decoration: none;
+    color:rgb(170,0,0);
+}
 #bike_div_php{
-border: 2px;
-text-align:justify;
+    border: 2px;
+    text-align:justify;
 }
 #table_biking
 {
-float:left;
-margin-left: 20px;
+    float:left;
+    margin-left: 20px;
 }
 
 table 
 {
-border: 1px solid black; 
-padding: none;
+    border: 1px solid black; 
+    padding: none;
 }
 
 tr
 {
-background-color: #969696; 
-color: white; 
-border: 1px solid black; 
-padding: 2px;
+    background-color: #969696; 
+    color: white; 
+    border: 1px solid black; 
+    padding: 2px;
 
 }
 
@@ -44,115 +44,115 @@ tr.two {background-color: #fcfcfc;}
 
 tr.one:hover 
 {
-background-color: #39659a; 
-color: white;
-}
-		
-tr.two:hover 
-{
-background-color: #39659a; 
-color: white;
+    background-color: #39659a; 
+    color: white;
 }
 
-		
+tr.two:hover 
+{
+    background-color: #39659a; 
+    color: white;
+}
+
+
 td 
 {
-padding: 4px;
-margin: 0;
+    padding: 4px;
+    margin: 0;
 }
 
 
 /* css des diff�rents trails */
 
 #bikingtrails{
-	float: left;
-	display:block;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px;
-	list-style: none;
-	line-height: normal;
-	color:white;
-	
-	}
+    float: left;
+    display:block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px;
+    list-style: none;
+    line-height: normal;
+    color:white;
+
+}
 
 
 #bikingtrails a{
-	display: block;
-	padding: 5px 0px 5px 0px;
-	border-radius: 10px;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 16px;
-	font-weight: 200;
-	border: none;
-	background:rgb(170,0,0);
-	color: white;
-	display: inline-block;
-	margin: 0px auto 30px 5px;
+    display: block;
+    padding: 5px 0px 5px 0px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    border: none;
+    background:rgb(170,0,0);
+    color: white;
+    display: inline-block;
+    margin: 0px auto 30px 5px;
 
 }
 #on{
-float:right;
-display: block;
-border-radius:5px;
-background:black;
-color: white;
-display: inline-block;
-padding: 1px 3px 1px 3px;
-text-decoration:blink;
+    float:right;
+    display: block;
+    border-radius:5px;
+    background:black;
+    color: white;
+    display: inline-block;
+    padding: 1px 3px 1px 3px;
+    text-decoration:blink;
 }
 #off{
-float:right;
-display: block;
-border-radius:5px;
-background:black;
-color: white;
-display: inline-block;
-text-decoration:blink;
-padding: 1px 3px 1px 3px;
+    float:right;
+    display: block;
+    border-radius:5px;
+    background:black;
+    color: white;
+    display: inline-block;
+    text-decoration:blink;
+    padding: 1px 3px 1px 3px;
 }
 
 #BikingTrails1:hover{
-color:red;
+    color:red;
 }
 #BikingTrails2:hover{
-color:blue;
+    color:blue;
 }
 #BikingTrails3:hover{
-color:yellow;
+    color:yellow;
 }
 #BikingTrails4:hover{
-color:green;
+    color:green;
 }
 #BikingTrails5:hover{
-color:orange;
+    color:orange;
 }
 
 /* fin des css des diff�rents trails */
 
 
 h1, h2, h3 {
-	margin: 0;
-	padding: 0;
-	font-weight: 300;
-	font-family: rockwell extra bold;
-	
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-family: rockwell extra bold;
+
 }
 
 h1 {
-	font-size: 2em;
+    font-size: 2em;
 }
 
 h2 {
-	font-size: 2.4em;
+    font-size: 2.4em;
 }
 
 h3 {
-	font-size: 1.6em;
+    font-size: 1.6em;
 }
 #h3Css{
-color:rgb(23,151,30);
+    color:rgb(23,151,30);
 }
 
 
@@ -161,33 +161,33 @@ color:rgb(23,151,30);
 /* Header */
 
 /*#header {
-	height:109px;
+        height:109px;
 }*/
 
 /* Logo */
 
 #logo {
-	width: 960px;
-	height: 150px;
-	margin: 0px auto 30px auto;
+    width: 960px;
+    height: 150px;
+    margin: 0px auto 30px auto;
 }
 
 #logo h1, #logo p {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 #logo h1 {
-	line-height: 100px;
-	letter-spacing: -1px;
-	text-align: center;
-	font-size: 3.8em;
+    line-height: 100px;
+    letter-spacing: -1px;
+    text-align: center;
+    font-size: 3.8em;
 }
 
 #logo a {
-	border: none;
-	background: none;
-	text-decoration: none;
+    border: none;
+    background: none;
+    text-decoration: none;
 }
 
 
@@ -195,88 +195,87 @@ color:rgb(23,151,30);
 /* Menu */
 
 /*#menu{
-	overflow: hidden;
-	width: 1000px;
-	padding: 0px 0px;
-	margin: 0px auto 30px auto;
-	font-size: 20px;
+        overflow: hidden;
+        width: 1000px;
+        padding: 0px 0px;
+        margin: 0px auto 30px auto;
+        font-size: 20px;
 }
 
 #menu ul {
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px;
-	list-style: none;
-	line-height: normal;
-	text-align: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px;
+        list-style: none;
+        line-height: normal;
+        text-align: center;
 }
 
 #menu li {
-	display: inline-block;
+        display: inline-block;
 }
 
 #menu a {
-	display: block;
-	padding: 1px 0px 5px 0px;
-	border-radius: 10px;
-	text-decoration: none;
-	text-transform: uppercase;
-	text-align: center;
-	font-size: 16px;
-	font-weight: 200;
-	border: none;
-	background:rgb(170,0,0);
-	color: white;
-	box-shadow:3px 3px 10px rgb(170,0,0);
+        display: block;
+        padding: 1px 0px 5px 0px;
+        border-radius: 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 200;
+        border: none;
+        background:rgb(170,0,0);
+        color: white;
+        box-shadow:3px 3px 10px rgb(170,0,0);
 }*/
 
 /*google map api */
 #google_map{
-float : left ;
-margin-top:10px;
-width : 400px ;
-margin-left : 200px ;
+    float : left ;
+    margin-top:10px;
+    width : 400px ;
+    margin-left : 200px ;
 }
 #map_div{ 
-	width : 700px;
-	height : 550px;
-	position : relative;	
+    width : 700px;
+    height : 550px;
+    position : relative;	
 }
 #side_bar{
-	width : 170px;
-	font-family: sans-serif;
-	font-style: italic;
-	text-decoration: orange;
-	text-transform: capitalize;
-	text-align : center;
-	
+    width : 170px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: orange;
+    text-transform: capitalize;
+    text-align : center;
+
 }
 
 form#direction{
-width:800px;
-padding: none;
-font-weight:bold;
+    width:800px;
+    padding: none;
+    font-weight:bold;
 }
 /* Footer */
 
 #footer {
-    margin: 5px;
-    
-        margin-top: 70%;
-	clear: left;
-	padding: 15px;
-	background: url("images/logo-gp05-lil.png") no-repeat bottom right rgb(170,0,0);
-        border-radius: 5px;
-	text-align: center;
-	color:white;
+ 
+   bottom: 0px;
+    padding:10px;
+    position: absolute;
+    background: url("images/logo-gp05-lil.png") no-repeat bottom right rgb(51,122,183);
+    border-radius: 5px;
+    text-align: center;
+    color:white;
 }
 
 
 [class*="col-"]{
     margin-top:25px;
-    
-    
+
+
 }
 .toggler { width: 20%; height: 40%; margin-left:32%;}
-        #button { padding: 2px; text-decoration: none; margin-left:32%; background:black; color:white;  }
-        #effect { width: 100%; height: 100%; padding: 0.4em; background: #fff; }
-        #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+#button { padding: 2px; text-decoration: none; margin-left:32%; background:black; color:white;  }
+#effect { width: 100%; height: 100%; padding: 0.4em; background: #fff; }
+#effect h3 { margin: 0; padding: 0.4em; text-align: center; }

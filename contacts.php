@@ -22,6 +22,7 @@
         <title> Contact </title>
     </head>
     <body>
+        
         <!--header-->
         <?php
         include("includes/header.php");
@@ -36,7 +37,9 @@
         <!--menu-->
         <?php include("includes/menu.php"); ?>
         <!--endmenu-->
-
+<br>
+            
+        <br>
         <div id="accordion" class="container"> 
             <h3>Address</h3>  
             <div>       
@@ -47,16 +50,9 @@
             <h3>E-Mail</h3>  
             <div>      
                 <p>
-                    ----> <a href="mailto:B00065721@student.itb.ie">Send me a message !</a> <----
+                  <a href="mailto:romain.fauconnier@yahoo.fr">Send a message</a>
                 </p>    
             </div>    
-            <h3>Map</h3>   
-            <div>     
-                <p>
-                    <a href="Localisation.php"> Here </a>
-                </p>        
-            </div>  
-
         </div> 
 
         <!--footer-->

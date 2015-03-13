@@ -1,3 +1,5 @@
-<div id="footer">
-	<p> http://www.gathering-people.ie design by Romain FAUCONNIER </p>
+
+<div id="footer" class="col-md-12">
+	http://www.muster.com by Romain FAUCONNIER 
 </div>
+ 
